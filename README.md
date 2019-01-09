@@ -8,13 +8,16 @@ While as of now the entire project does not need any additional libraries or ext
 BlekNN uses SGD (stochastic-gradient descent) to learn. 
 After importing nn.py into your python project, you have to create the actual network.
 This is done using the `network( )` constructor.
+<br/>
 <br/> ```net = nn.network([3,5,4,2],[nn.funcs.sigmoid,nn.funcs.dsigmoid],[nn.funcs.mserr,nn.funcs.dmserr]) ```  
 <br/>
 <br/> This will create a neural network with an input size of 3, an output size of 2, with 2 hidden layers of size 5 and 4.
 <br/> The second input list to the function, contains the activation function in index 0, and the derivative of the activation function in index 1. 
 <br/> The third input list contains the error function in index 0, and its corresponding derivative function in index 1.
 <br/> Define all your inputs as a 2d list 
+<br/>
 <br/>```inputs = [[20,2,3],[29,3,4]]``` 
+<br/>
 <br/> This is basically 2 sets of inputs
 <br/> In this exapmple your output list must also be defined in a similar way, but each subset must contain 2 values corresponding to the 2 outputs of the neural network.
 <br/> In order to train the neural network you simply have to run the following line: ```net.run(inputs,outputs)```
