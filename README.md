@@ -1,4 +1,4 @@
-# BlekNN
+# :b:lekNN
 A neural network engine I made for fun, entirely in python, with no external libraries, with the bulk of the code having been written in one night. Note that due to the time constraints, certain omptimizations and feautures that may be present in other neural network engines are still yet to be added. 
 
 # Requirements/Limitatons
